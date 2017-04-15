@@ -11,10 +11,10 @@ Example form field:
 ```python
 from table_select_widget import TableSelectMultiple
 items = forms.ModelMultipleChoiceField(
-        queryset=myqueryset, widget=widgets.TableSelectMultiple(
+        queryset=myqueryset, widget=TableSelectMultiple(
         item_attrs=[
             'tablecolumn1',
-            ('tablecolumn2', "Table coulumn 2 header"),
+            ('tablecolumn2', "Table column 2 header"),
         ]))
 ```
         
